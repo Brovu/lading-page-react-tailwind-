@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .check-content {
+        @apply flex mb-[50px] gap-8 items-center ml-[70px] mr-[29px] md:mx-0
+    }
+    .user-content {
+        @apply mt-16 gap-7 flex items-center ml-[70px] mr-[54px]
+    }
+    .md-size-menu {
+        @apply text-[#ccc] text-[20px] cursor-pointer hover:text-purple-500 transition-all duration-200
+    }
+}
